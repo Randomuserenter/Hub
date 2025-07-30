@@ -3,4 +3,4 @@ local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
 
-this script is temporary down while we try and bypass the anti cheat', 10)
+Library:Notify('this script is temporary down while we try and bypass the anti cheat', 10)
